@@ -13,6 +13,7 @@ module.exports = {
 			"jsx": true
 		}
 	},
+	
 	"rules": {
 		//Code style rules
 		"jsx-quotes": ["warn", "prefer-double"],

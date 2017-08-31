@@ -1,6 +1,11 @@
 module.exports = {
 	"extends": "eslint:recommended",
 	
+	"env": {
+		"commonjs": true,
+		"node": true
+	},
+	
 	"plugins": [
 		"promise",
 		"security",
@@ -10,6 +15,7 @@ module.exports = {
 		"ecmaVersion": 6,
 		"sourceType": "module",
 	},
+	
 	"rules": {
 		"eol-last": "error",
 		"no-alert": "warn",
