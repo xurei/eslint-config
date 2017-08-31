@@ -16,7 +16,7 @@
     "url": "https://github.com/xurei/eslint-config/issues"
   },
   "homepage": "https://github.com/xurei/eslint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.2.1",
