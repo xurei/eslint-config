@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-xurei",
+  "version": "1.0.0",
+  "description": "Set of eslint rules used in xurei's projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xurei/eslint-config.git"
+  },
+  "author": "Olivier Bourdoux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xurei/eslint-config/issues"
+  },
+  "homepage": "https://github.com/xurei/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-react-native": "^3.0.1",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}
