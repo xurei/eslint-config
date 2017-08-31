@@ -3,17 +3,12 @@ module.exports = {
 	
 	"plugins": [
 		"promise",
-		"react",
-		"react-native",
-		"security"
+		"security",
 	],
 	
 	"parserOptions": {
 		"ecmaVersion": 6,
 		"sourceType": "module",
-		"ecmaFeatures": {
-			"jsx": true
-		}
 	},
 	"rules": {
 		"eol-last": "error",
@@ -32,7 +27,6 @@ module.exports = {
 		"quotes": ["warn", "single"],
 		"indent": ["warn", "tab", { "SwitchCase": 1 }],
 		"prefer-template": "warn",
-		"jsx-quotes": ["warn", "prefer-double"],
 		"key-spacing": ["warn", { "beforeColon": false, "afterColon": true }],
 		
 		"promise/always-return": "error",
@@ -43,9 +37,5 @@ module.exports = {
 		"promise/no-nesting": "warn",
 		"promise/no-promise-in-callback": "warn",
 		"promise/no-callback-in-promise": "warn",
-		
-		"react/jsx-uses-vars": "error",
-		"react/style-prop-object": "error",
-		"react-native/no-inline-styles": "warn"
 	}
 };

@@ -2,7 +2,6 @@
   "name": "eslint-config-xurei",
   "version": "1.0.0",
   "description": "Set of eslint rules used in xurei's projects",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
