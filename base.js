@@ -17,6 +17,9 @@ module.exports = {
 	},
 	
 	'rules': {
+		//Disabled rules
+		'no-console': 0,
+		
 		'eol-last': 'error',
 		'no-alert': 'warn',
 		'no-eval': 'error',
