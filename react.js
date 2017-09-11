@@ -1,25 +1,26 @@
 module.exports = {
-	"extends": "./base.js",
+	'extends': './base.js',
 	
-	"plugins": [
-		"react",
-		"react-native"
+	'plugins': [
+		'react',
+		'react-native'
 	],
 	
-	"parserOptions": {
-		"ecmaVersion": 6,
-		"sourceType": "module",
-		"ecmaFeatures": {
-			"jsx": true
+	'parserOptions': {
+		'ecmaVersion': 6,
+		'sourceType': 'module',
+		'ecmaFeatures': {
+			'experimentalObjectRestSpread': true,
+			'jsx': true
 		}
 	},
 	
-	"rules": {
+	'rules': {
 		//Code style rules
-		"jsx-quotes": ["warn", "prefer-double"],
+		'jsx-quotes': ['warn', 'prefer-double'],
 		
-		"react/jsx-uses-vars": "error",
-		"react/style-prop-object": "error",
-		"react-native/no-inline-styles": "warn"
+		'react/jsx-uses-vars': 'error',
+		'react/style-prop-object': 'error',
+		'react-native/no-inline-styles': 'warn'
 	}
 };
