@@ -21,6 +21,8 @@ module.exports = {
 		
 		'react/jsx-uses-vars': 'error',
 		'react/style-prop-object': 'error',
-		'react-native/no-inline-styles': 'warn'
+		'react-native/no-inline-styles': 'warn',
+		
+		'no-class-assign': 0
 	}
 };

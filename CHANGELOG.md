@@ -1,3 +1,7 @@
+##1.0.3 - TODO
+- Disabled `no-class-assign`
+- `no-undef` as warning
+
 ##1.0.2 - 2017-09-11
 - Add `experimentalObjectRestSpread` in config
 
