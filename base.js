@@ -23,8 +23,6 @@ module.exports = {
 		//Disabled rules
 		'no-console': 0,
 		
-		'no-undef': 'warn',
-		
 		'eol-last': 'error',
 		'no-alert': 'warn',
 		'no-eval': 'error',
