@@ -3,7 +3,7 @@ module.exports = {
 	
 	'env': {
 		'commonjs': true,
-		'node': true
+		'node': true,
 	},
 	
 	'plugins': [
@@ -15,8 +15,8 @@ module.exports = {
 		'ecmaVersion': 6,
 		'sourceType': 'module',
 		'ecmaFeatures': {
-			'experimentalObjectRestSpread': true
-		}
+			'experimentalObjectRestSpread': true,
+		},
 	},
 	
 	'rules': {
@@ -40,6 +40,7 @@ module.exports = {
 		'indent': ['warn', 'tab', { 'SwitchCase': 1 }],
 		'prefer-template': 'warn',
 		'key-spacing': ['warn', { 'beforeColon': false, 'afterColon': true }],
+		'comma-dangle': ['warn', 'always-multiline'],
 		
 		'promise/always-return': 'error',
 		'promise/no-return-wrap': 'error',
@@ -49,5 +50,5 @@ module.exports = {
 		'promise/no-nesting': 'warn',
 		'promise/no-promise-in-callback': 'warn',
 		'promise/no-callback-in-promise': 'warn',
-	}
+	},
 };
