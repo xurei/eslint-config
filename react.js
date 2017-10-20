@@ -3,7 +3,7 @@ module.exports = {
 	
 	'plugins': [
 		'react',
-		'react-native'
+		'react-native',
 	],
 	
 	'parserOptions': {
@@ -11,8 +11,8 @@ module.exports = {
 		'sourceType': 'module',
 		'ecmaFeatures': {
 			'experimentalObjectRestSpread': true,
-			'jsx': true
-		}
+			'jsx': true,
+		},
 	},
 	
 	'rules': {
@@ -23,6 +23,6 @@ module.exports = {
 		'react/style-prop-object': 'error',
 		'react-native/no-inline-styles': 'warn',
 		
-		'no-class-assign': 0
-	}
+		'no-class-assign': 0,
+	},
 };
