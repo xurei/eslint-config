@@ -37,7 +37,7 @@ module.exports = {
 		
 		//Code style rules
 		'quotes': ['warn', 'single'],
-		'indent': ['warn', 'tab', { 'SwitchCase': 1 }],
+		'indent': ['warn', 'tab', { 'SwitchCase': 1, "MemberExpression": 0 }],
 		'prefer-template': 'warn',
 		'key-spacing': ['warn', { 'beforeColon': false, 'afterColon': true }],
 		'comma-dangle': ['warn', 'always-multiline'],
