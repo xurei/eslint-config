@@ -15,11 +15,16 @@
     "url": "https://github.com/xurei/eslint-config/issues"
   },
   "homepage": "https://github.com/xurei/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 5.0.0"
+  },
   "dependencies": {
-    "eslint": "^3.19.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.2.1",
-    "eslint-plugin-react-native": "^3.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0",
     "eslint-plugin-security": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0"
   }
 }
